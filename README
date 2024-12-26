@@ -1,0 +1,13 @@
+## Download packages using
+
+pip install .
+
+
+## To run, test_cython_gc.py
+PYTHONPATH=src python tests/test_cython_gc.py
+
+## To run, feature/calculator.py
+PYTHONPATH=src python tests/test_cython_gc.py
+
+## Compiling
+python setup.py build_ext --inplace
